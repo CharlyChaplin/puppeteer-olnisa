@@ -14,7 +14,7 @@ async function parseAll(browserInstance) {
 		browser = await browserInstance;
 		let brandLinks = [];
 		// закомментировать, если хотим сделать запрос с сайта
-		brandLinks = getBrandsArr();
+		// brandLinks = getBrandsArr();
 		//-----------------------------------------------------------------
 
 		// собираем ссылки всех брендов

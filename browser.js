@@ -7,8 +7,8 @@ async function startBrowser() {
 
 	try {
 		const browserOptions = {
-			// headless: true,
-			headless: false,
+			headless: true,
+			// headless: false,
 			args: [
 				// '--window-position=0,0',
 				'--window-position=-800,0',
