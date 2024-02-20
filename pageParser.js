@@ -157,7 +157,7 @@ const parserObj = {
 		let nextButtonExist = false;
 		try {
 			const nextButton = await page.$eval('.page_link.next', a => a.textContent);
-			console.log(`Кнопка 'next' существует на странице ${pageNumber}.`);
+			// console.log(`Кнопка 'next' существует на странице ${pageNumber}.`);
 			// если предыдущая строка не вызвала ошибки, то придём на нижнюю строку и установим true
 			nextButtonExist = true;
 		}
