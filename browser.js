@@ -10,8 +10,8 @@ async function startBrowser() {
 			// headless: true,
 			headless: false,
 			args: [
-				'--window-position=-800,0',
 				// '--window-position=0,0',
+				'--window-position=-800,0',
 				'--window-size=800,900',
 				'--disable-setuid-sandbox',
 			],
